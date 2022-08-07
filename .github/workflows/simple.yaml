@@ -5,6 +5,6 @@ on: [push]
 jobs:
     run-shell-command:
     runs-on: ubuntu-latest
-	steps:
+    steps:
 	    - name: echo a string
 	       run: echo "Hello, Security Gurus! This is our First GitHub Action"
